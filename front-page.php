@@ -6,7 +6,7 @@
         <h2 class="page-title">Benvenuto su <?php bloginfo( 'name' ); ?></h2>
         <p class="page-subtitle">
           Questa è la homepage statica. In WordPress potrebbe diventare la <strong>front-page.php</strong>.
-        </p>
+        </p> 
       </header>
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
